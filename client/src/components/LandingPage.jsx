@@ -1,0 +1,47 @@
+import React, { useState } from 'react';
+import {Link} from 'react-router-dom';
+import './styles/LandingPage.css'; // importo los styles de mi landinpage.css
+// import { Button, Tablet, Container } from 'reactstrap'
+import home from '../components/Home';
+
+
+export function LandingPage(props){
+    return(
+        <div>
+            <br/>
+            <img height="90" src={require('./images/logoMuni.png')} alt="to home"/> 
+            <label className='blanco'> ----------------- </label>
+            <img height="110" src={require('./images/logo redondo muni.png')} alt="to home"/>
+            <br/>
+            {/* <img src='https://ciudaddecorrientes.gov.ar/sites/default/themes/ciudaddecorrientes/logo.png' alt="to home" /> */}
+            <h1 className="colorLetras">Bienvenido {props.usu} a la App de Inspeciones Urbanas</h1>            
+            <img src={require('./images/separadorpagina.png')}/><br/>
+            <Link to = '/home'>     
+                <br/>
+                <div >
+                    <img  className="logo" src={require('./images/obras-y-gestion.png')} alt="to home"/>  
+                </div>
+                 
+            </Link>
+            <br /> <br />             
+            <img src={require('./images/separadorpagina.png')}/>
+            <br/><br/>
+            {/* <Button color='primary' src='/login'>LOGIN</Button>             */}             
+            {/* <p aling="center">
+                ---------------------------------------------------------------------------------------------------------------------------------------
+            </p>  */}
+            <a href="tel: 080055556864"><img src={require('./images/Muni-pie-pagina.png')}/></a>
+            <a target="_blank" href="https://www.google.com/maps/place/25+de+Mayo+1178,+W3400+BCO,+Corrientes/@-27.4643245,-58.8359019,19z/data=!4m5!3m4!1s0x94456ca5cf8581b3:0xc800c5930b7d65f0!8m2!3d-27.4645143!4d-58.835628"><img src={require('./images/Muni-pie-pagina2.png')}  /></a>
+            {/* <img src=" https://ciudaddecorrientes.gov.ar/sites/default/themes/ciudaddecorrientes/images/call_negro.png"/>            
+            <img src="https://ciudaddecorrientes.gov.ar/sites/default/files/direccion_negro.png"/> */}
+            <h5>TODOS LOS DERECHOS RESERVADOS • MUNICIPALIDAD DE LA CIUDAD DE CORRIENTES • © 2022</h5>
+            
+            <p ><a className='blanco' href="https://www.linkedin.com/in/Marcos-Dacunda/" target="_blank">Desarrollador: Marcos A. Dacunda G.</a></p>            
+        </div>
+    )
+}
+
+
+{/* <img src='https://ciudaddecorrientes.gov.ar/sites/default/themes/ciudaddecorrientes/images/bottom-bg.png'/> */}
+                
+            {/* <img src="./images/Muni-pie-pagina2.png" alt="to home" /> */}

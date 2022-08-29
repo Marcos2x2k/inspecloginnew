@@ -1,0 +1,51 @@
+
+
+.colorLetrasBienvenido{   
+    border-radius:30px;
+    border:5px solid black;
+    /* background-color: rgb(88, 85, 85); */
+    background-color: rgba(42, 41, 41, 0.698);
+    color: white;
+    margin: 0 auto;
+    /* margin: 1rem; */
+    /* padding: 1rem; */
+    /* text-align: center; */
+    width: 600px;
+    /* height: 350px; */
+}
+
+.padre {
+    display: grid;
+    justify-content: center;
+  }
+.hijo {
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    text-shadow: black 1px 3px;        
+  }
+
+  .selectfont{
+    /* font-size:18px; */
+    display: inline-block;
+    width: 80px;
+  }
+
+  .carddirectionhome{ 
+      display: grid;
+      font-size:21px;
+      /* background-color: royalblue; */
+      /* justify-content: left;  */
+      /* flex-direction: row */      
+  }
+
+    .logocorrientes{
+      border-radius:80px;
+      opacity: 0.8;
+      /* border: 3px solid black;    */
+  }
+
+  .logomulta{
+    border-radius:1000px;
+    /* border: 3px solid black;    */
+}

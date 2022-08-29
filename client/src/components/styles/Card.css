@@ -1,0 +1,70 @@
+.card{
+    display: flex;
+    border-radius:100px;
+    border:5px solid #666;
+    width: 25%; 
+    height: 250px;
+    border-color:rgb(36, 35, 34);    
+    text-shadow: rgb(211, 201, 201);
+    flex-wrap: wrap;
+    justify-content: auto;
+    margin: auto; 
+}
+.carddirection{
+    display: grid;
+      grid-template-columns: auto auto auto auto auto;
+      justify-content:center;
+      width: 80%;
+      margin: auto auto;
+}
+
+.heading {
+     font-size:18px;
+     color: black; 
+     /* text-shadow: 2px 1px gray; */
+     justify-content:center;
+}
+
+.headingRojo {
+    font-size:20px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px gray;
+    /* text-shadow: 1px 2px black; */
+}
+
+.logoredondo{
+    border-radius:2000px;
+    border: 3px solid rgb(238, 234, 234);   
+}
+
+.detailcontainer {
+    border: 3px solid black; 
+    border-color:rgb(167, 189, 22);
+    border-style: inset;
+    display: table ;
+    justify-content: center;
+    margin: 0 auto;   }
+
+.detailcontainerlist{
+    text-decoration-color: none;
+    text-decoration-style: none;
+    text-decoration: none;
+    border: 2px rgb(68, 69, 66);
+    border-color:rgb(68, 69, 66);
+    border-width: thin;
+    border-style: dotted;
+    display: table ;
+    justify-content: center;
+    margin: 0 auto;   }
+
+ .header h3 {
+      display:inline; }
+
+      .blanco{
+        color:rgb(255, 255, 255)
+      }
+
+      .miniaturaimagen{
+        border-radius:10px;
+        border: 2px solid black;
+    }
